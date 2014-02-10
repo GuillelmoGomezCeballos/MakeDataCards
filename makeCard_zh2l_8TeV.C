@@ -19,7 +19,7 @@ void makeCard_zh2l_8TeV(const Double_t mass)
   //============================================================================================================== 
 
   // cross section data
-  const TString xsfname("xs_br_h_ecm8tev.txt");
+  const TString xsfname("xs_br_hww_ecm8tev.txt");
   
   // reference mass points
   const Int_t nmass=8;

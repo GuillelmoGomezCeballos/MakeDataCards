@@ -13,7 +13,7 @@
 #include "/home/ceballos/releases/CMSSW_5_3_14/src/Smurf/Analysis/HWWlvlv/factors.h"
 #endif
 
-void makeCard_hww_8TeV(const Double_t mass) 
+void makeCard_hww_7TeV(const Double_t mass) 
 {
   //--------------------------------------------------------------------------------------------------------------
   // Settings 
@@ -23,7 +23,7 @@ void makeCard_hww_8TeV(const Double_t mass)
   double scaleFactor[4] = {1.0, 1.0, 1.0, 1.0};
  
   // cross section data
-  const TString xsfname("xs_br_h_ecm7tev.txt");
+  const TString xsfname("xs_br_hww_ecm7tev.txt");
   
   // reference mass points
   const Int_t nmass=25;

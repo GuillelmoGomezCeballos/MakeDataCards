@@ -22,7 +22,7 @@ void makeCard_vh3l_7TeV(const Double_t mass)
   double scaleFactor[2] = {1.0, 1.0};
 
   // cross section data
-  const TString xsfname("xs_br_h_ecm7tev.txt");
+  const TString xsfname("xs_br_hww_ecm7tev.txt");
   
   // reference mass points
   const Int_t nmass=13;
