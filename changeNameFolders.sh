@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd /home/ceballos/root/makeLimitsCards/test;
+cd /home/ceballos/root/MakeDataCards/test;
 
 mv 124.09999999999999 124.1;
 mv 125.09999999999999 125.1;
